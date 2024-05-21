@@ -1,4 +1,3 @@
-
 public class MobilBarang extends Mobil {
     int kapasitasMax;
     final int maxGigi = 6;
