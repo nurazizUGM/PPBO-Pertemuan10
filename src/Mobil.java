@@ -58,4 +58,12 @@ public abstract class Mobil {
     void setKecepatan(int kecepatan) {
         this.kecepatan = kecepatan;
     }
+
+    void rem() {
+        if (this.kecepatan == 0) {
+            System.out.println("Mobil berhenti!");
+        } else {
+            this.kecepatan -= 10;
+        }
+    }
 }
