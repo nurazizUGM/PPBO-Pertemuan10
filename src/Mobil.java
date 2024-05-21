@@ -64,6 +64,7 @@ public abstract class Mobil {
             System.out.println("Mobil berhenti!");
         } else {
             this.kecepatan -= 10;
+            System.out.println("Kecepatan: " + this.kecepatan);
         }
     }
 }

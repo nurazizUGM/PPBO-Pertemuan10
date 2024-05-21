@@ -64,5 +64,14 @@ public class App {
 
         carry.KurangiGigi();
         carry.kopling();
+        carry.rem();
+        carry.rem();
+        carry.rem();
+        carry.rem();
+        carry.rem();
+        carry.rem();
+        carry.rem();
+        carry.rem();
+        carry.rem();
     }
 }
