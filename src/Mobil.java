@@ -23,6 +23,15 @@ public abstract class Mobil {
 
     abstract void gas();
 
+    void rem() {
+        if (this.kecepatan == 0) {
+            System.out.println("Mobil berhenti!");
+        } else {
+            this.kecepatan -= 10;
+            System.out.println("Kecepatan: " + this.kecepatan);
+        }
+    }
+
     String getNomor() {
         return this.nomor;
     }
@@ -57,14 +66,5 @@ public abstract class Mobil {
 
     void setKecepatan(int kecepatan) {
         this.kecepatan = kecepatan;
-    }
-
-    void rem() {
-        if (this.kecepatan == 0) {
-            System.out.println("Mobil berhenti!");
-        } else {
-            this.kecepatan -= 10;
-            System.out.println("Kecepatan: " + this.kecepatan);
-        }
     }
 }
